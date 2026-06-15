@@ -1,0 +1,42 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "feature_descriptions": {
+    "age": "Age in years",
+    "sex": "Sex (1=male, 0=female)",
+    "cp": "Chest pain type (1=typical angina, 2=atypical angina, 3=non-anginal, 4=asymptomatic)",
+    "trestbps": "Resting blood pressure (mm Hg)",
+    "chol": "Serum cholesterol (mg/dl)",
+    "fbs": "Fasting blood sugar > 120 mg/dl (1=true, 0=false)",
+    "restecg": "Resting ECG results (0=normal, 1=ST-T abnormality, 2=LV hypertrophy)",
+    "thalach": "Maximum heart rate achieved",
+    "exang": "Exercise induced angina (1=yes, 0=no)",
+    "oldpeak": "ST depression induced by exercise relative to rest",
+    "slope": "Slope of peak exercise ST segment (1=upsloping, 2=flat, 3=downsloping)",
+    "ca": "Number of major vessels colored by fluoroscopy (0-3)",
+    "thal": "Thalassemia (3=normal, 6=fixed defect, 7=reversible defect)"
+  },
+  "model_metrics": {
+    "CV ROC-AUC (mean)": 0.8627923606184474,
+    "CV ROC-AUC (std)": 0.020443263109771723,
+    "Accuracy": 0.8852459016393442,
+    "Precision": 0.8181818181818182,
+    "Recall": 0.9642857142857143,
+    "F1-Score": 0.8852459016393442,
+    "ROC-AUC": 0.9361471861471862
+  },
+  "best_model": "XGBoost"
+}
