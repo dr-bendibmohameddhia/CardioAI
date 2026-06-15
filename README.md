@@ -280,4 +280,4 @@ MIT License — Built for portfolio demonstration.
 
 ---
 
-**Built with 💚 by a senior AI engineer + UI/UX designer | 2026**
+**Built by BENDIB Mohamed Dhia **
